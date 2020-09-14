@@ -39,7 +39,7 @@ function draw() {
 
   for(side = 10; side<300; side = side + 30)
   {
-  	var x = startX-400 + scalar * cos(angle*side/1200);
+  	var x = startX-300 - scalar * cos(angle*side/1200);
  	var y = startY + scalar * sin(angle*side/1200)/1.5;
   	noFill();
 
